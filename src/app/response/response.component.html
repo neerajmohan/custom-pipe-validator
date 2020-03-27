@@ -1,0 +1,25 @@
+<div class="container">
+    <div>
+        <h2>Candidate Details</h2><hr>
+    </div>
+    <div class="form-group">
+        <strong>Name : </strong><span>{{formRes.name | custom:formRes.gender}}</span>
+    </div>
+    <div class="form-group">
+        <strong>DOB : </strong><span>{{formRes.dob}}</span>
+    </div>
+    <div class="form-group">
+        <strong>Gender : </strong><span>{{formRes.gender}}</span>
+    </div>
+    <div class="form-group">
+        <strong>Qualification : </strong><span>{{formRes.qualification}}</span>
+    </div>
+    <div class="form-group">
+        <strong>Email : </strong><span>{{formRes.email}}</span>
+    </div>
+    <div class="form-group">
+        <strong>Phone : </strong><span>{{formRes.phone}}</span>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
